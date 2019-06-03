@@ -36,4 +36,5 @@ if(!$mail->send()) {
 } else {
     header('location: thank-you.html');
 }
+ error_page  405     =200 $uri;
 ?>

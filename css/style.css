@@ -63,6 +63,7 @@ h2:after, legend:after
 	text-transform: uppercase;
 	transition: all 0.25s ease 0s;
 	line-height: 3.2em;
+	outline: none;
 }
 .subtitle
 {

@@ -27,7 +27,7 @@
 	<script src="https://kit.fontawesome.com/677cb42391.js"></script>
 
 </head>
-<body>
+<body class="body" id="body">
 	
 
 	<div class="top-page page">
@@ -37,7 +37,7 @@
 				<div class="circle circle_second"></div>
 				<div class="circle circle_third"></div>
 			</div>
-			<header class="head">
+			<header class="head" id="head">
 
 				<div class="page-menu">
 					<nav class="menu" id="menu">
@@ -66,7 +66,7 @@
 						<p class="logo__text menu__link osw-medium">Digital crafters</p>
 					</div>
 				</div>
-				<a href="#" class="btn_req btn"><p href="#" class="btn_req__text">Request a quote</p>
+				<a href="javascript:void(0)" onclick="slowScroll('#contact-page')" class="btn_req btn"><p class="btn_req__text">Request a quote</p>
 				</a>
 			</header>
 			<div class="offer">
@@ -74,7 +74,7 @@
 				<h1 class="offer__title pop-sembold">We give you the stuff you need to make more money</h1>
 				<p class="offer__text"><span class="offer__span">Bring us your remarkable business. We’ll give you the design, content and tool</span> you need to become unstoppable. 2018 is the year you become rich.</p>
 
-				<a href="#" class="btn_offer btn ">
+				<a href="javascript:void(0)" onclick="slowScroll('#contact-page')"  class="btn_offer btn">
 					<p class="btn_offer__text ">Claim your free consultation</p>
 				</a>
 			</div>
@@ -85,7 +85,7 @@
 				ut they know everything about pretty fonts and nothing about designs that convert. Perhaps you’ve worked with a content creator who writes suspiciously like a robot.</p>
 				<img src="img/devices.png" alt="devices" class="offer-info__devices">
 				<p class="offer-info__text">Or worse, you’ve heard horror stories about programmers, web designers and writers who sprint out of the starting blocks… and then disappear entirely. Luckily, you found us, and no one can stop you now from working with us.</p>
-				<a href="#" class="btn_offer-info btn_offer btn ">
+				<a href="javascript:void(0)" onclick="slowScroll('#contact-page')"  class="btn_offer-info btn_offer btn ">
 					<p class="btn_offer-info__text">Claim your free consultation</p>
 				</a>
 			</div>
@@ -151,7 +151,7 @@
 			<div class="slider" id="slider"></div>
 		</div>
 	</div>
-	<div class="contact-page page">
+	<div class="contact-page page" id="contact-page">
 		<div class="wrap">
 			<h2 class="contact-title__title services-title pop-sembold">Contact us today to learn how we increase your revenue.</h2>
 			<form action="php/mail.php" class="contact-form" method="POST" id="contact-form" enctype="text/plain">
@@ -166,7 +166,7 @@
 						<textarea name="commentary" placeholder="How we can help you?"></textarea>
 					</div>
 				</div>
-				<button class="btn_contact-form btn_offer-info btn_offer btn" type="submit">
+				<button class="btn_contact-form btn_offer-info btn_offer btn" type="submit" id="submit">
 					<p class="btn_contact-page__text btn_offer-info__text">Claim your free consultation</p>
 				</button>
 			</form>
@@ -196,7 +196,8 @@
 		</div>
 	</footer>
 
-	<script type="text/javascript" src="js/main.js"></script>
+	
 	<script type="text/javascript" src="libs/jquery-3.4.0.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
