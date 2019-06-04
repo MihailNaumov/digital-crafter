@@ -35,6 +35,10 @@ h2:after, legend:after
 	opacity: .15;
 	font-size: 17px;
 }
+h3
+{
+	font-size: 17px;
+}
 .osw-medium
 {
 	font-family: "Oswald Medium" , 'Arial', sans-serif;
@@ -310,7 +314,33 @@ h2:after, legend:after
 .btn_offer-info
 {
 	box-shadow: 0 17px 20px 0px #1e2a3ebf;
-	margin-bottom: 50px; /* delete this later */
+}
+
+.top-carousel
+{
+	padding:140px 0;
+}
+.top-carousel__slide
+{
+	background: #3943c3;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-right: 15px;
+	margin-left: 15px;
+	border-radius: 6px;
+	box-shadow: 0 0 0 rgba(0,0,0,0);
+}
+.top-carousel__text
+{
+	padding-top: 10%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.top-carousel__client
+{
+	padding-bottom: 5%;
+	padding-top: 4%;
 }
 
 /* Services */

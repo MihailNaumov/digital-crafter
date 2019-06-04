@@ -1,27 +1,46 @@
 /* 1601-1920px */
 @media screen and (max-width: 1920px)
 {
-
+	.top-carousel__slide
+	{
+		height: 410px;
+	}
 }
 /* 1369-1600px */
 @media screen and (max-width: 1600px)
 {
-
+	
 }
 /* 961-1368px */
 @media screen and (max-width: 1368px)
 {
-
+	
 }
 /* 769-960px */
 @media screen and (max-width: 960px)
 {
-
+	.top-carousel__slide
+	{
+		height:auto; 
+		padding-top:50px;
+		margin-left: 30px;
+		margin-right: 30px;
+		background-color: #3943c3;
+	}
+}
 }
 /* 481-768px */
 @media screen and (max-width: 768px)
 {
+	.top-carousel__text
+	{
 
+		font-size: 14px;
+	}
+	.top-carousel__client
+	{
+		font-size: 14px;s
+	}
 }
 /* 320-480px */
 @media screen and (max-width: 480px)
