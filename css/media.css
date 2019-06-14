@@ -164,6 +164,10 @@
 		position: static;
 		margin-left: 0;
 	}
+	.legal-docs
+	{
+		margin-top: 20px;
+	}
 }
 /* 481-768px */
 @media screen and (max-width: 768px)
@@ -184,7 +188,6 @@
 	.slide
 	{
 		font-size: 14px;
-		padding-top: 50px;
 	}
 	.circles
 	{
@@ -219,11 +222,8 @@
 	.form-group > *::-webkit-input-placeholder
 	{
 		font-size: 14px;
-	}
-	.legal-docs
-	{
-		margin-top: 15px;
-	}
+	}	
+	
 	.footer-logo
 	{
 		width: 198px;
@@ -298,6 +298,6 @@
 	}
 	.socials
 	{
-		margin-top: 15px;
+		margin-top: 20px;
 	}
 }

@@ -16,6 +16,7 @@ body
 	text-align: center;
 	letter-spacing: 0.03em;
 	line-height: 1.8em;
+	overflow-x: hidden;
 }
 h2, legend
 {
@@ -778,14 +779,19 @@ input:-webkit-autofill {
 	font-size: 26px;
 	color: #fff;
 }
-.docs
+.legal-docs
+{
+
+}
+.legal-docs
 {
 	display: flex; 
 	width: 285px;
 	justify-content: space-between;
 	align-items: center;
+	margin-top: 20px;
 }
-.docs__text
+.docs__link
 {
 	font-size: 14px;
 	text-transform: uppercase;
