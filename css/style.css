@@ -781,15 +781,11 @@ input:-webkit-autofill {
 }
 .legal-docs
 {
-
-}
-.legal-docs
-{
 	display: flex; 
 	width: 285px;
 	justify-content: space-between;
 	align-items: center;
-	margin-top: 20px;
+
 }
 .docs__link
 {
