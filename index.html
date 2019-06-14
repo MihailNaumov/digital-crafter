@@ -10,11 +10,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<!--Main Styles File-->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<!-- Media Queries File -->
-	<link rel="stylesheet" type="text/css" href="css/media.css">
+	
 	
 	<!--Normalizer-->
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	
+	<!-- Media Queries File -->
+	<link rel="stylesheet" type="text/css" href="css/media.css">
 	
 	<!-- FavIcon -->
 	<link rel="icon" type="image/x-icon" href="img/favicon.png">
@@ -35,109 +37,112 @@
 	
 
 	<div class="top-page page">
-		<div class="wrap">
-			<div class="circles">
-				<div class="circle circle_first"></div>
-				<div class="circle circle_second"></div>
-				<div class="circle circle_third"></div>
-			</div>
-			<header class="head" id="head">
+		<header class="head" id="head">
 
-				<div class="page-menu">
-					<nav class="menu" id="menu">
-						<ul class="menu__list">
-							<li class="menu__item">
-								<a class="menu__link pop" href="#">About</a>
-							</li>
-							<li class="menu__item">
-								<a class="menu__link pop" href="#">Testimonials</a>
-							</li>
-							<li class="menu__item">
-								<a class="menu__link pop" href="#">Services</a>
-							</li>
-							<li class="menu__item">
-								<a class="menu__link pop" href="#">Portfolio</a>
-							</li>
-							<li class="menu__item">
-								<a class="menu__link pop" href="#">Contact</a>
-							</li>
-						</ul>
+			<div class="page-menu">
+				<div class="menu" id="menu">
+					<a class="menu__btn"><span></span></a>
+					<nav class="menu-nav">
+						<li class="menu-nav__item">
+							<a class="menu-nav__link pop" href="#">About</a>
+						</li>
+						<li class="menu-nav__item">
+							<a class="menu-nav__link pop" href="#">Testimonials</a>
+						</li>
+						<li class="menu-nav__item">
+							<a class="menu-nav__link pop" href="#">Services</a>
+						</li>
+						<li class="menu-nav__item">
+							<a class="menu-nav__link pop" href="#">Portfolio</a>
+						</li>
+						<li class="menu-nav__item">
+							<a class="menu-nav__link pop" href="#">Contact</a>
+						</li>
 					</nav>
 				</div>
-				<div class="page-logo">
-					<div class="logo">
-						<img class="logo__img" src="img/logo.png" alt="logo">
-						<p class="logo__text menu__link osw-medium">Digital crafters</p>
-					</div>
+			</div>
+			<div class="page-logo">
+				<div class="logo">
+					<img class="logo__img" src="img/logo.png" alt="logo">
+					<p class="logo__text menu__link osw-medium">Digital crafters</p>
 				</div>
-				<a href="javascript:void(0)" onclick="slowScroll('#contact-page')" class="btn_req btn"><p class="btn_req__text">Request a quote</p>
-				</a>
-			</header>
+			</div>
+			<a href="javascript:void(0)" onclick="slowScroll('#contact-page')" class="btn_req btn"><p class="btn_req__text">Request a quote</p>
+			</a>
+		</header>
+		<div class="circles">
+			<div class="circle circle_first"></div>
+			<div class="circle circle_second"></div>
+			<div class="circle circle_third"></div>
+		</div>
+		<div class="wrap ">
 			<div class="offer">
 				<subtitle class="offer__subtitle subtitle">GET THE FOOLPROOF STRATEGY THAT HELPS YOU WIN </subtitle>
 				<h1 class="offer__title pop-sembold">We give you the stuff you need to make more money</h1>
 				<p class="offer__text"><span class="offer__span">Bring us your remarkable business. We’ll give you the design, content and tool</span> you need to become unstoppable. 2018 is the year you become rich.</p>
 
 				<a href="javascript:void(0)" onclick="slowScroll('#contact-page')"  class="btn_offer btn">
-					<p class="btn_offer__text ">Claim your free consultation</p>
+					<p class="btn_offer__text ">Claim your free <span>consultation</span></p>
 				</a>
 			</div>
 			<div class="offer-info">
 				<subtitle class="offer-info__subtitle subtitle">HOW WE CAN HELP YOU</subtitle>
-				<h2 class="offer-info__title pop-medium"><span>You come up with the business,</span> we’ll build the website</h2>
+				<h2 class="offer-info__title pop-medium">You come up with the business, <span>we’ll build the website</span></h2>
 				<p class="offer-info__text">Maybe you’ve hired someone in the past to create your website, only to find 
 				ut they know everything about pretty fonts and nothing about designs that convert. Perhaps you’ve worked with a content creator who writes suspiciously like a robot.</p>
 				<img src="img/devices.png" alt="devices" class="offer-info__devices">
 				<p class="offer-info__text">Or worse, you’ve heard horror stories about programmers, web designers and writers who sprint out of the starting blocks… and then disappear entirely. Luckily, you found us, and no one can stop you now from working with us.</p>
 				<a href="javascript:void(0)" onclick="slowScroll('#contact-page')"  class="btn_offer-info btn_offer btn ">
-					<p class="btn_offer-info__text">Claim your free consultation</p>
+					<p class="btn_offer-info__text">Claim your free <span>consultation</span></p>
 				</a>
 			</div>
 		</div>
-		<div class="comma"></div>
-		<div class="top-carousel owl-carousel" id=#top-slider>
-			
-			<div class="top-carousel__slide">
-				<p class="top-carousel__text">We have worked with Digital Crafters for several years across a range of projects. They have built the critical elements of our system and have always 
-					delivered a strong return on investment. Moreover, they are a pleasure to work 
-					with — always enthusiastic, professional and with a positive culture. I would, and 
-				have, recommended them to others in need of flexible development capacity.</p>
-				<h3 class="top-carousel__client">Todd Quinto - CEO at Endave Software</h3>
-				<div class="top-carousel__circle"></div>
-			</div>
-			<div class="top-carousel__slide">
-				<p class="top-carousel__text">Vivamus non porta dui. Vivamus eu est sodales, porta nisl eget, sollicitudin magna. Sed placerat sagittis dapibus. Vestibulum eget elit id nulla finibus rhoncus sit amet sodales quam. Nunc sollicitudin dictum nisl, et consequat dui ultrices at. Praesent mauris nisi, eleifend id libero non, tincidunt posuere nulla. Ut vel odio ut tellus faucibus luctus. Mauris libero justo, semper a felis ut, vehicula molestie nisi. Vestibulum sagittis.</p>
-				<h3 class="top-carousel__client">Jenna Mosey - Manager at  Softvision</h3>
-				<div class="top-carousel__circle"></div>
-			</div>
-			<div class="top-carousel__slide">
-				<p class="top-carousel__text">We have worked with Digital Crafters for several years across a range of projects. They have built the critical elements of our system and have always 
-					delivered a strong return on investment. Moreover, they are a pleasure to work 
-					with — always enthusiastic, professional and with a positive culture. I would, and 
-				have, recommended them to others in need of flexible development capacity.</p>
-				<h3 class="top-carousel__client">Todd Quinto - CEO at Endave Software</h3>
-				<div class="top-carousel__circle"></div>
-			</div>
-			<div class="top-carousel__slide">
-				<p class="top-carousel__text">Vivamus non porta dui. Vivamus eu est sodales, porta nisl eget, sollicitudin magna. Sed placerat sagittis dapibus. Vestibulum eget elit id nulla finibus rhoncus sit amet sodales quam. Nunc sollicitudin dictum nisl, et consequat dui ultrices at. Praesent mauris nisi, eleifend id libero non, tincidunt posuere nulla. Ut vel odio ut tellus faucibus luctus. Mauris libero justo, semper a felis ut, vehicula molestie nisi. Vestibulum sagittis.</p>
-				<h3 class="top-carousel__client">Jenna Mosey - Manager at  Softvision</h3>
-				<div class="top-carousel__circle"></div>
-			</div>
-			<div class="top-carousel__slide">
-				<p class="top-carousel__text">We have worked with Digital Crafters for several years across a range of projects. They have built the critical elements of our system and have always 
-					delivered a strong return on investment. Moreover, they are a pleasure to work 
-					with — always enthusiastic, professional and with a positive culture. I would, and 
-				have, recommended them to others in need of flexible development capacity.</p>
-				<h3 class="top-carousel__client">Jenna Mosey - Manager at  Softvision</h3>
-				<div class="top-carousel__circle"></div>
-			</div>
-			<div class="top-carousel__slide">
-				<p class="top-carousel__text">We have worked with Digital Crafters for several years across a range of projects. They have built the critical elements of our system and have always 
-					delivered a strong return on investment. Moreover, they are a pleasure to work 
-					with — always enthusiastic, professional and with a positive culture. I would, and 
-				have, recommended them to others in need of flexible development capacity.</p>
-				<h3 class="top-carousel__client">Todd Quinto - CEO at Endave Software</h3>
-				<div class="top-carousel__circle"></div>
+		<div class="top-carousel-page">
+			<img src="img/quote-green.png" alt="comma" class="comma">
+			<div class="top-carousel owl-carousel" id=#top-slider>
+
+				<div class="top-carousel__slide slide">
+					<p class="top-carousel__text">We have worked with Digital Crafters for several years across a range of projects. They have built the critical elements of our system and have always 
+						delivered a strong return on investment. Moreover, they are a pleasure to work 
+						with — always enthusiastic, professional and with a positive culture. I would, and 
+					have, recommended them to others in need of flexible development capacity.</p>
+					<h3 class="top-carousel__client">Todd Quinto - CEO at Endave Software</h3>
+					<div class="top-carousel__circle"></div>
+				</div>
+				<div class="top-carousel__slide slide">
+					<p class="top-carousel__text">Vivamus non porta dui. Vivamus eu est sodales, porta nisl eget, sollicitudin magna. Sed placerat sagittis dapibus. Vestibulum eget elit id nulla finibus rhoncus sit amet sodales quam. Nunc sollicitudin dictum nisl, et consequat dui ultrices at. Praesent mauris nisi, eleifend id libero non, tincidunt posuere nulla. Ut vel odio ut tellus faucibus luctus. Mauris libero justo, semper a felis ut, vehicula molestie nisi. Vestibulum sagittis.</p>
+					<h3 class="top-carousel__client">Jenna Mosey - Manager at  Softvision</h3>
+					<div class="top-carousel__circle"></div>
+				</div>
+				<div class="top-carousel__slide slide">
+					<p class="top-carousel__text">We have worked with Digital Crafters for several years across a range of projects. They have built the critical elements of our system and have always 
+						delivered a strong return on investment. Moreover, they are a pleasure to work 
+						with — always enthusiastic, professional and with a positive culture. I would, and 
+					have, recommended them to others in need of flexible development capacity.</p>
+					<h3 class="top-carousel__client">Todd Quinto - CEO at Endave Software</h3>
+					<div class="top-carousel__circle"></div>
+				</div>
+				<div class="top-carousel__slide slide">
+					<p class="top-carousel__text">Vivamus non porta dui. Vivamus eu est sodales, porta nisl eget, sollicitudin magna. Sed placerat sagittis dapibus. Vestibulum eget elit id nulla finibus rhoncus sit amet sodales quam. Nunc sollicitudin dictum nisl, et consequat dui ultrices at. Praesent mauris nisi, eleifend id libero non, tincidunt posuere nulla. Ut vel odio ut tellus faucibus luctus. Mauris libero justo, semper a felis ut, vehicula molestie nisi. Vestibulum sagittis.</p>
+					<h3 class="top-carousel__client">Jenna Mosey - Manager at  Softvision</h3>
+					<div class="top-carousel__circle"></div>
+				</div>
+				<div class="top-carousel__slide slide">
+					<p class="top-carousel__text">We have worked with Digital Crafters for several years across a range of projects. They have built the critical elements of our system and have always 
+						delivered a strong return on investment. Moreover, they are a pleasure to work 
+						with — always enthusiastic, professional and with a positive culture. I would, and 
+					have, recommended them to others in need of flexible development capacity.</p>
+					<h3 class="top-carousel__client">Jenna Mosey - Manager at  Softvision</h3>
+					<div class="top-carousel__circle"></div>
+				</div>
+				<div class="top-carousel__slide slide">
+					<p class="top-carousel__text">We have worked with Digital Crafters for several years across a range of projects. They have built the critical elements of our system and have always 
+						delivered a strong return on investment. Moreover, they are a pleasure to work 
+						with — always enthusiastic, professional and with a positive culture. I would, and 
+					have, recommended them to others in need of flexible development capacity.</p>
+					<h3 class="top-carousel__client">Todd Quinto - CEO at Endave Software</h3>
+					<div class="top-carousel__circle"></div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -194,61 +199,143 @@
 		<div class="wrap">
 			<div class="portfolio-title">
 				<h2 class="portfolio-title__title services-title">Our Portfolio</h2>
-				<p class="portfolio-title__text infocards__text">We’ve done lots of stuff in the past and we made millions in
+				<p class="portfolio-title__text">We’ve done lots of stuff in the past and we made millions in
 				revenue for hundreds of happy customers.</p>
 			</div>
-			<div class="slider" id="slider"></div>
 		</div>
-	</div>
-	<div class="contact-page page" id="contact-page">
-		<div class="wrap">
-			<h2 class="contact-title__title services-title pop-sembold">Contact us today to learn how we increase your revenue.</h2>
-			<form action="php/mail.php" class="contact-form" method="POST" id="contact-form" enctype="text/plain">
-				<div class="form-fields">
-					<div class="name form-group">
-						<input type="text" name="user-name" autocomplete="off" placeholder="Your name">
-					</div>
-					<div class="mail form-group">
-						<input type="text" name="user-email" autocomplete="off" placeholder="Email">
-					</div>
-					<div class="commentary form-group">
-						<textarea name="commentary" placeholder="How we can help you?"></textarea>
+		<div class="portfolio-slider owl-carousel" id="portfolio-slider">
+			<div class="portfolio-slider__slide slide">
+				<img src="img/rectangle.png" alt="rectangle">
+				<div class="portfolio-slider__description">
+					<div class="portfolio-slider__circle"><img class="potfolio-page__portfolio-slider__slide__flash" id="flash" src="img/lighting.svg" alt="lighting"></div>
+					<h3 class="portfolio-slider__title">LandingZap App</h3>
+					<p class="portfolio-slider__text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+					<div class="tags">
+						<div class="portfolio-slider__tags__button">UX</div>
+						<div class="portfolio-slider__tags__button">UI</div>
+						<div class="portfolio-slider__tags__button">MOBILE APP</div>
 					</div>
 				</div>
-				<button class="btn_contact-form btn_offer-info btn_offer btn" type="submit" id="submit">
-					<p class="btn_contact-page__text btn_offer-info__text">Claim your free consultation</p>
-				</button>
-			</form>
-
-		</div>
-	</div>
-	<footer class="footer" id="footer">
-		<div class="wrap">
-			<div class="page-footer-logo">
-				<div class="footer-logo logo">
-					<img class="footer-logo__img logo__img" src="img/logo.png" alt="logo">
-					<p class="footer-logo__text logo__text menu__link osw-medium">Digital crafters</p>
+			</div>
+			<div class="portfolio-slider__slide slide">
+				<img src="img/rectangle.png" alt="rectangle">
+				<div class="portfolio-slider__description">
+					<div class="portfolio-slider__circle"><img class="potfolio-page__portfolio-slider__slide__flash" id="flash" src="img/lighting.svg" alt="lighting"></div>
+					<h3 class="portfolio-slider__title">LandingZap App</h3>
+					<p class="portfolio-slider__text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+					<div class="tags">
+						<div class="portfolio-slider__tags__button">UX</div>
+						<div class="portfolio-slider__tags__button">UI</div>
+						<div class="portfolio-slider__tags__button">MOBILE APP</div>
+					</div>
 				</div>
 			</div>
-			<div class="socials">
-				<a href="#" class="socials__link"><i class="fab fa-twitter socials__icon"></i></a>
-				<a href="#" class="socials__link"><i class="fab fa-facebook-square socials__icon"></i></a>
-				<a href="#" class="socials__link"><i class="fab fa-instagram socials__icon"></i></a>
-				<a href="#" class="socials__link"><i class="fab fa-linkedin socials__icon"></i></a>	
+			<div class="portfolio-slider__slide slide">
+				<img src="img/rectangle.png" alt="rectangle">
+				<div class="portfolio-slider__description">
+					<div class="portfolio-slider__circle"><img class="potfolio-page__portfolio-slider__slide__flash" id="flash" src="img/lighting.svg" alt="lighting"></div>
+					<h3 class="portfolio-slider__title">LandingZap App</h3>
+					<p class="portfolio-slider__text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+					<div class="tags">
+						<div class="portfolio-slider__tags__button">UX</div>
+						<div class="portfolio-slider__tags__button">UI</div>
+						<div class="portfolio-slider__tags__button">MOBILE APP</div>
+					</div>
+				</div>
 			</div>
-			<div class="legal-docs">
-				<a class="docs" href="#">
-					<p class="docs__text p">Terms of service</p>
-					<p class="docs__text pop">PRIVACY POLICY</p>
-				</a>
+			<div class="portfolio-slider__slide slide">
+				<img src="img/rectangle.png" alt="rectangle">
+				<div class="portfolio-slider__description">
+					<div class="portfolio-slider__circle"><img class="potfolio-page__portfolio-slider__slide__flash" id="flash" src="img/lighting.svg" alt="lighting"></div>
+					<h3 class="portfolio-slider__title">LandingZap App</h3>
+					<p class="portfolio-slider__text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+					<div class="tags">
+						<div class="portfolio-slider__tags__button">UX</div>
+						<div class="portfolio-slider__tags__button">UI</div>
+						<div class="portfolio-slider__tags__button">MOBILE APP</div>
+					</div>
+				</div>
+			</div>
+			<div class="portfolio-slider__slide slide">
+				<img src="img/rectangle.png" alt="rectangle">
+				<div class="portfolio-slider__description">
+					<div class="portfolio-slider__circle"><img class="potfolio-page__portfolio-slider__slide__flash" id="flash" src="img/lighting.svg" alt="lighting"></div>
+					<h3 class="portfolio-slider__title">LandingZap App</h3>
+					<p class="portfolio-slider__text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+					<div class="tags">
+						<div class="portfolio-slider__tags__button">UX</div>
+						<div class="portfolio-slider__tags__button">UI</div>
+						<div class="portfolio-slider__tags__button">MOBILE APP</div>
+					</div>
+				</div>
+			</div>
+			<div class="portfolio-slider__slide slide">
+				<img src="img/rectangle.png" alt="rectangle">
+				<div class="portfolio-slider__description">
+					<div class="portfolio-slider__circle"><img class="potfolio-page__portfolio-slider__slide__flash" id="flash" src="img/lighting.svg" alt="lighting"></div>
+					<h3 class="portfolio-slider__title">LandingZap App</h3>
+					<p class="portfolio-slider__text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+					<div class="tags">
+						<div class="portfolio-slider__tags__button">UX</div>
+						<div class="portfolio-slider__tags__button">UI</div>
+						<div class="portfolio-slider__tags__button">MOBILE APP</div>
+					</div>
+				</div>
 			</div>
 		</div>
-	</footer>
+		<div class="contact-page page" id="contact-page">
+			<div class="wrap">
+				<h2 class="contact-title__title services-title pop-sembold">Contact us today to learn how we increase your revenue.</h2>
+				<form action="php/mail.php" class="contact-form" method="POST" id="contact-form" enctype="text/plain">
+					<div class="form-fields">
+						<div class="name form-group">
+							<input type="text" name="user-name" placeholder="Your name">
+						</div>
+						<div class="mail form-group">
+							<input type="text" name="user-email" placeholder="Email">
+						</div>
+						<div class="commentary form-group">
+							<textarea name="commentary" placeholder="How we can help you?"></textarea>
+						</div>
+					</div>
+					<button class="btn_contact-form btn_offer-info btn_offer btn" type="submit" id="submit">
+						<p class="btn_contact-page__text btn_offer-info__text">Claim your free <span>consultation</span></p>
+					</button>
+				</form>
+
+			</div>
+		</div>
+		<footer class="footer" id="footer">
+			<div class="wrap">
+				<div class="footer__links">
+					<div class="footer__first-line">
+						<div class="page-footer-logo">
+							<div class="footer-logo logo">
+								<img class="footer-logo__img logo__img" src="img/logo.png" alt="logo">
+								<p class="footer-logo__text logo__text menu__link osw-medium">Digital crafters</p>
+							</div>
+						</div>
+						<div class="socials">
+							<a href="#" class="socials__link"><i class="fab fa-twitter socials__icon"></i></a>
+							<a href="#" class="socials__link"><i class="fab fa-facebook-square socials__icon"></i></a>
+							<a href="#" class="socials__link"><i class="fab fa-instagram socials__icon"></i></a>
+							<a href="#" class="socials__link"><i class="fab fa-linkedin socials__icon"></i></a>	
+						</div>
+					</div>
+					<div class="legal-docs">
+						<a class="docs" href="#">
+							<p class="docs__text p">Terms of service</p>
+							<p class="docs__text pop">PRIVACY POLICY</p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</footer>
 
 
-	<script type="text/javascript" src="libs/jquery-3.4.0.min.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>
-	<!-- Owl-carousel js -->
-	<script src="plagins/owl-carousel/owl.carousel.min.js"></script>
-</body>
-</html>
+		<script type="text/javascript" src="libs/jquery-3.4.0.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		<!-- Owl-carousel js -->
+		<script src="plagins/owl-carousel/owl.carousel.min.js"></script>
+	</body>
+	</html>

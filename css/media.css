@@ -9,41 +9,295 @@
 /* 1369-1600px */
 @media screen and (max-width: 1600px)
 {
-	
+
+
 }
 /* 961-1368px */
 @media screen and (max-width: 1368px)
 {
-	
+	.top-page
+	{
+		background-color: #313598;
+	}
+	.circle_first
+	{
+		background-color: #4145b4;
+	}
+	.circle_second
+	{
+		background-color: #373ba3;
+	}
+	.circle_third
+	{
+		background-color: #33369a;
+	}
+	#head
+	{
+		flex-wrap: wrap;
+		flex-direction: row-reverse;
+		margin-right: 0;
+	}
+
+	.menu-nav
+	{
+		position: absolute;
+		top: 39px; right: 0;
+		transform-origin: top right;
+		background-color: #303394;
+		align-items: center;
+		flex-direction: column;
+		border-radius: 5px;
+		z-index: -99999;
+	}
+	.menu-nav:last-child
+	{
+		padding-bottom: 40px;
+	}
+	.menu-nav .menu-nav__link, .menu-nav
+	{
+		transition: transform .2s, opacity .2s;
+		transform: translateX(100%);
+		opacity: 0;
+		text-transform: inherit;
+	}
+	nav.menu-nav li.menu-nav__item
+	{
+		margin: 0;
+		padding:40px 100px 0 100px;
+	}
+	.menu-nav__link
+	{
+		font-size: 24px;
+	}
+	.menu__btn
+	{
+		display: block;
+	}
+
+	.offer__span
+	{
+		display: inline;
+	}
+	.comma
+	{
+		left: 50%;
+		top: -10px;
+		margin-left: -96px;
+	}
+
 }
 /* 769-960px */
 @media screen and (max-width: 960px)
 {
+	.wrap
+	{
+		padding-left: 8.1%;
+		padding-right: 8.1%;
+	}
+
+	.btn p span
+	{
+		display: none;
+	}
+	.offer__title
+	{
+		font-size: 56px;
+	}
+	.head
+	{
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.btn_req
+	{
+		display: none;
+	}
+	.page-logo
+	{
+		position: static;
+		margin-left: 30px;
+	}
+	.slide
+	{
+		margin-left: 30px;
+		margin-right: 30px;
+	}
 	.top-carousel__slide
 	{
 		height:auto; 
-		padding-top:50px;
-		margin-left: 30px;
-		margin-right: 30px;
-		background-color: #3943c3;
 	}
-}
+	.offer-info__text
+	{
+		width: auto;
+	}
+	
+	.portfolio-slider__slide 
+	{
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+	.infocards__first-line, .infocards__second-line
+	{
+		margin-top: 0;
+		flex-direction: column;
+		align-items: center;
+	}
+	.card
+	{
+		margin-top: 80px;
+		text-align: center;
+	}
+	.infocards__circle
+	{
+		left: 50%;
+		margin-left: -55px;
+	}
+	.footer__links
+	{
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.socials
+	{
+		position: static;
+		margin-left: 0;
+	}
 }
 /* 481-768px */
 @media screen and (max-width: 768px)
 {
-	.top-carousel__text
+	body
 	{
-
 		font-size: 14px;
 	}
-	.top-carousel__client
+	h3, h3.infocards__title
 	{
-		font-size: 14px;s
+		font-size: 18px;
 	}
+	.btn
+	{
+		font-size: 16px;
+		width: 65%;
+	}
+	.slide
+	{
+		font-size: 14px;
+		padding-top: 50px;
+	}
+	.circles
+	{
+		top: 6.5vw;
+	}
+	.logo__text
+	{
+		font-size: 16px;
+	}
+	.offer__title
+	{
+		font-size: 40px;
+	}
+	.offer__text
+	{
+		font-size: inherit;
+	}
+	.offer:after
+	{
+		height: 100px;
+	}
+	.services-title__text, .portfolio-title__text,
+	.contact-title__title
+	{
+		width: auto;
+	}
+
+	.form-group *
+	{
+		width: 80vw;
+	}
+	.form-group > *::-webkit-input-placeholder
+	{
+		font-size: 14px;
+	}
+	.legal-docs
+	{
+		margin-top: 15px;
+	}
+	.footer-logo
+	{
+		width: 198px;
+		justify-content: flex-end;
+	}
+	.page-footer-logo::before
+	{
+		content:'';
+		display: block;
+		width: 100%;
+	}
+
 }
 /* 320-480px */
 @media screen and (max-width: 480px)
 {
+	h1, h2
+	{
+		font-size: 24px;
+		font-family: 'Poppins SemiBold', 'Arial',sans-serif; 
+		font-weight: 400;
+	}
 
+	.btn
+	{
+		width: 100%;
+	}
+	.head_active
+	{
+		background-color: #303394;
+		padding-bottom: 500px;
+		margin: 0;
+	}
+	.menu__btn
+	{
+		position: absolute;
+		right: 0;
+	}
+	.menu-nav
+	{
+		border-top: 2px solid rgba(255,255,255, 0.2);
+		width: 100vw;
+	}
+	.offer__title
+	{
+		font-size: 25px;
+	}
+	
+	.subtitle
+	{
+		font-size: 16px;
+		width: 300px;
+	}
+	.services-title__title:after, .contact-title__title:after
+	{
+		opacity: 1;
+	}
+	.portfolio-title__title:after
+	{
+		background-color: #313695;
+		opacity: 1;
+	}
+	.card
+	{
+		width: auto;
+	}
+
+	.footer__first-line
+	{
+		flex-direction: column;
+
+	}
+	.socials
+	{
+		margin-top: 15px;
+	}
 }
