@@ -9,7 +9,14 @@ function slowScroll (id) {
 }
 /*Карусель*/
 $(function(){
-	$('.top-carousel').owlCarousel({items:1, 
+	$('.top-carousel').owlCarousel({
+		loop:true,
+		autoplay:8000,
+		smartSpeed:1000,
+		nav:true,
+		navText: ["",""],
+		pagination : true,
+		items:1, 
 		responsiveClass:true,
 		responsive:{
 			0:{
@@ -39,35 +46,49 @@ $(function(){
 		}});
 });
 $(function(){
-	$('.portfolio-slider').owlCarousel({items:1, 
+	$('.portfolio-slider').owlCarousel({
+		autoplay:8000,
+		smartSpeed:1000,
+		loop:true,
+		pagination : true,
+		nav:true,
+		navText:["",""],
+		items:1, 
 		responsiveClass:true,
 		responsive:{
 			0:{
+				items:1,
 				stagePadding:0,
 			},
 			600:{
-				stagePadding:0,
+				stagePadding:100,
 
 			},
 			800:
 			{
-				stagePadding:0,
-			},
-			1000:
-			{
-				stagePadding:0,
-			},
-			1200:
-			{
+				items:1,
 				stagePadding:200,
+			},
+			960:
+			{
+				items:1,
+				stagePadding:0,
+			},
+			1300:
+			{
+				items:1,
+				stagePadding:150,
 			},
 			1600:
 			{
+				items:1,
 				stagePadding:360,
 
 			},
 		}});
 });
+
+
 
 $('.menu__btn').on('click', function(e)
 {
@@ -77,8 +98,9 @@ $('.menu__btn').on('click', function(e)
 	$('.head').toggleClass('head_active');
 });
 
+
 window.onresize = function(event) {
-if(window.matchMedia('(min-width: 1368px)').matches){
+	if(window.matchMedia('(min-width: 1368px)').matches){
 		$('.menu__btn').removeClass('menu__btn_active');
 		$('.menu-nav').removeClass('menu-nav_active');
 		$('.head').removeClass('head_active');
