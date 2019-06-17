@@ -49,7 +49,7 @@ $(function(){
 $(function(){
 	$('.portfolio-slider').owlCarousel({
 		autoplay:true,
-		autoplayTimeout:1000,
+		autoplay:8000,
 		smartSpeed:1000,
 		autoplayHoverPause:true,
 		loop:true,
