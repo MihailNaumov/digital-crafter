@@ -11,7 +11,7 @@ function slowScroll (id) {
 $(function(){
 	$('.top-carousel').owlCarousel({
 		loop:true,
-		autoplay:8000,
+		autoplay:7900,
 		autoplayHoverPause:true,
 		smartSpeed:1000,
 		nav:true,
