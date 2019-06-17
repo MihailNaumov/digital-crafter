@@ -12,6 +12,7 @@ $(function(){
 	$('.top-carousel').owlCarousel({
 		loop:true,
 		autoplay:8000,
+		autoplayHoverPause:true,
 		smartSpeed:1000,
 		nav:true,
 		navText: ["",""],
@@ -47,8 +48,10 @@ $(function(){
 });
 $(function(){
 	$('.portfolio-slider').owlCarousel({
-		autoplay:8000,
+		autoplay:true,
+		autoplayTimeout:1000,
 		smartSpeed:1000,
+		autoplayHoverPause:true,
 		loop:true,
 		pagination : true,
 		nav:true,
@@ -61,7 +64,7 @@ $(function(){
 				stagePadding:0,
 			},
 			600:{
-				stagePadding:100,
+				stagePadding:0,
 
 			},
 			800:
@@ -86,10 +89,10 @@ $(function(){
 
 			},
 		}});
+	
 });
-
-
-
+        
+/*Show mobile menu*/
 $('.menu__btn').on('click', function(e)
 {
 	e.preventDefault;
@@ -98,7 +101,7 @@ $('.menu__btn').on('click', function(e)
 	$('.head').toggleClass('head_active');
 });
 
-
+/*Close mobile menu when screen width less then 1368*/
 window.onresize = function(event) {
 	if(window.matchMedia('(min-width: 1368px)').matches){
 		$('.menu__btn').removeClass('menu__btn_active');
