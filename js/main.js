@@ -41,7 +41,7 @@ $(function(){
 			},
 			1600:
 			{
-				stagePadding:500,
+				stagePadding:300,
 
 			},
 		}});
