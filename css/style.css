@@ -20,8 +20,8 @@ body
 	text-align: center;
 	letter-spacing: 0.03em;
 	line-height: 1.8em;
-	margin-left: 20px;
-	margin-right: 20px;
+	margin: 0 auto !important;
+	max-width: 1920px;
 	overflow-x: hidden;
 }
 h2, legend
@@ -435,6 +435,7 @@ h3
 .logo__text
 {
 	text-transform: uppercase;
+	white-space: nowrap;
 	font-size: 22px;
 	font-style: italic;
 	font-weight: 300;
